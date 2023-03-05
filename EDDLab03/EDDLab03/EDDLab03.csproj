@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Nodos">
-      <HintPath>..\..\..\Dllestructs\Nodos\bin\Debug\net6.0\Nodos.dll</HintPath>
+    <Reference Include="Structuras">
+      <HintPath>..\Structuras\bin\Debug\net6.0\Structuras.dll</HintPath>
     </Reference>
   </ItemGroup>
 

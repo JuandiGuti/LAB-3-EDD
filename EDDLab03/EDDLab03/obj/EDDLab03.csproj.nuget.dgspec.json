@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj": {}
+    "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj": {
+    "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
+        "projectUniqueName": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
         "projectName": "EDDLab03",
-        "projectPath": "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
-        "packagesPath": "C:\\Users\\Altan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\obj\\",
+        "projectPath": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
+        "packagesPath": "C:\\Users\\juand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\EDDLab03\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Altan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

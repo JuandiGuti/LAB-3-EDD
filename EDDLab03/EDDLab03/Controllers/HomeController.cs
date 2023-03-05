@@ -1,7 +1,7 @@
 ﻿using EDDLab03.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Nodos;
+using Structuras;
 namespace EDDLab03.Controllers
 {
 	public class HomeController : Controller
@@ -15,6 +15,7 @@ namespace EDDLab03.Controllers
 
 		public IActionResult Index()
 		{
+			Structuras.Nodo<Carro> NodoCarro;
 			return View();
 		}
 
