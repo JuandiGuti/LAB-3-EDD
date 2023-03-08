@@ -32,3 +32,11 @@ C:\Users\juand\Documents\01 UNIVERSIDAD\ESTRUCTURAS DE DATOS\00 PROYECTOS\LAB-3-
 C:\Users\juand\Documents\01 UNIVERSIDAD\ESTRUCTURAS DE DATOS\00 PROYECTOS\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.pdb
 C:\Users\juand\Documents\01 UNIVERSIDAD\ESTRUCTURAS DE DATOS\00 PROYECTOS\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.genruntimeconfig.cache
 C:\Users\juand\Documents\01 UNIVERSIDAD\ESTRUCTURAS DE DATOS\00 PROYECTOS\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\ref\EDDLab03.dll
+C:\Users\antho\OneDrive\Escritorio\Tercer semestre\estructura de datos-practica\lab no.3\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.csproj.AssemblyReference.cache
+C:\Users\antho\OneDrive\Escritorio\Tercer semestre\estructura de datos-practica\lab no.3\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\OneDrive\Escritorio\Tercer semestre\estructura de datos-practica\lab no.3\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.AssemblyInfoInputs.cache
+C:\Users\antho\OneDrive\Escritorio\Tercer semestre\estructura de datos-practica\lab no.3\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.AssemblyInfo.cs
+C:\Users\antho\OneDrive\Escritorio\Tercer semestre\estructura de datos-practica\lab no.3\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.csproj.CoreCompileInputs.cache
+C:\Users\antho\OneDrive\Escritorio\Tercer semestre\estructura de datos-practica\lab no.3\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\antho\OneDrive\Escritorio\Tercer semestre\estructura de datos-practica\lab no.3\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.RazorAssemblyInfo.cache
+C:\Users\antho\OneDrive\Escritorio\Tercer semestre\estructura de datos-practica\lab no.3\LAB-3-EDD\EDDLab03\EDDLab03\obj\Debug\net6.0\EDDLab03.RazorAssemblyInfo.cs
