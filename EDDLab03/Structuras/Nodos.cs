@@ -25,8 +25,18 @@ namespace Structuras
 			Raiz = null;
 		}
 
-		
-		public void Colocar(Nodo<T> un_nodo, T valor)
+        public void insertar(T valor)
+        {
+            if (Raiz == null)
+            {
+                Raiz.Valor = valor;
+            }
+            else
+            {
+                Colocar(Raiz, valor);
+            }
+        }
+        public void Colocar(Nodo<T> un_nodo, T valor)
 		{
             if (un_nodo.Valor <= valor)
 			{
