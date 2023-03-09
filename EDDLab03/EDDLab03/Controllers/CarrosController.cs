@@ -9,14 +9,14 @@ namespace EDDLab03.Controllers
 		List<Carro> CarrosLista = new List<Carro>();
 		public IActionResult Index()
 		{
-			return View();
+			return View(CarrosLista);
 		}
-		[HttpPost("cargamanual")]
-		public IActionResult CargaManual()
-		{
-			return View();
-		}
-		[HttpPost("cargacsv")]
+        public IActionResult CargarArchivo()
+        {
+            return View();
+        }
+
+        [HttpPost("cargacsv")]
 		public IActionResult CargaCSV(IFormFile archivo)
 		{
 			if (archivo != null)
@@ -69,5 +69,18 @@ namespace EDDLab03.Controllers
 		{
 			return View();
 		}
-	}
+
+        [HttpGet("cargamanual")]
+        public IActionResult CargaManual()
+        {
+            return View();
+        }
+
+        [HttpPost("guardar")]
+        public IActionResult Guardar(Carro nuevoCarro)
+        {
+            CarrosLista.Add(nuevoCarro);
+            return RedirectToAction("Index");
+        }
+    }
 }
