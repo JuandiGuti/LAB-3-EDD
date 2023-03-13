@@ -1,8 +1,30 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Lab.3 Circulacion de Vehiculos SAT";
 }
-
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1>@ViewData["Title"]</h1>
+    <div>
+        <h3>Paso: 1</h3>
+        <label>Cargar un archivo o Ingresar manualmente</label>
+        <br /><br />
+        <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="cargacsv">Por CSV</a></button>
+        <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="cargamanual">Manual</a></button>
+        <br /><br />
+    </div>
+    <div>
+        <h3>Paso: 2</h3>
+        <label>Guardar en: Arbol AVL o Arbol ABB (Puede elegir solo una de las 2 o luego de guardar en una guarde en la siguiente)</label>
+        <br /><br />
+        <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="cargacsv">AVL</a></button>
+        <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="cargamanual">ABB</a></button>
+        <br /><br />
+    </div>
+    <div>
+        <h3>Funcionalidades</h3>
+            <div>
+                <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="cargamanual">Ordenar</a></button>
+                <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="cargamanual">Buscar</a></button>
+                <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="cargamanual">Estadisticas</a></button>
+            </div>
+    </div>
 </div>

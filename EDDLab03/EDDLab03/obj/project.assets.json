@@ -3123,6 +3123,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Structuras/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Structuras.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Structuras.dll": {}
+        }
       }
     }
   },
@@ -9048,31 +9058,37 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Structuras/1.0.0": {
+      "type": "project",
+      "path": "../Structuras/Structuras.csproj",
+      "msbuildProject": "../Structuras/Structuras.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.12"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.12",
+      "Structuras >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samur\\.nuget\\packages\\": {},
+    "C:\\Users\\juand\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
+      "projectUniqueName": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
       "projectName": "EDDLab03",
-      "projectPath": "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
-      "packagesPath": "C:\\Users\\samur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\EDDLab03\\obj\\",
+      "projectPath": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
+      "packagesPath": "C:\\Users\\juand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\EDDLab03\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9087,7 +9103,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj": {
+              "projectPath": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -9124,7 +9144,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

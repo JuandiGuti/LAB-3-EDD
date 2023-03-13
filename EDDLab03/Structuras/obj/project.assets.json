@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\samur\\.nuget\\packages\\": {},
+    "C:\\Users\\juand\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj",
+      "projectUniqueName": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj",
       "projectName": "Structuras",
-      "projectPath": "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj",
-      "packagesPath": "C:\\Users\\samur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\Structuras\\obj\\",
+      "projectPath": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj",
+      "packagesPath": "C:\\Users\\juand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

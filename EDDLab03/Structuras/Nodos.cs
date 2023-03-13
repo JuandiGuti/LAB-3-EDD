@@ -2,64 +2,61 @@
 
 namespace Structuras
 {
-	public class Nodo<T>
+	public class Nodo<T> where T : IComparable<T>
 	{
 		public T Valor { get; set; }
-		public Nodo<T> HijoIzquierdo { get; set; }
-		public Nodo<T> HijoDerecho { get; set; }
+		public Nodo<T> Izquierda { get; set; }
+		public Nodo<T> Derecha { get; set; }
 
 		public Nodo(T valor)
 		{
 			Valor = valor;
-			HijoIzquierdo = null;
-			HijoDerecho = null;
 		}
 	}
 
-	public class Arbol<T>
+	public class ABB<T> where T : IComparable<T>
 	{
-		public Nodo<T> Raiz { get; set; }
+		private Nodo<T> raiz;
 
-		public Arbol()
+		public ABB()
 		{
-			Raiz = null;
+			raiz = null;
 		}
 
-        public void insertar(T valor)
-        {
-            if (Raiz == null)
-            {
-                Raiz.Valor = valor;
-            }
-            else
-            {
-                Colocar(Raiz, valor);
-            }
-        }
-        public void Colocar(Nodo<T> un_nodo, T valor)
+		public void Insertar(T valor)
 		{
-            if (un_nodo.Valor <= valor)
+			Nodo<T> nuevoNodo = new Nodo<T>(valor);
+			if (raiz == null)
 			{
-				if(un_nodo.HijoIzquierdo == null)
+				raiz = nuevoNodo;
+			}
+			else
+			{
+				Nodo<T> actual = raiz;
+				Nodo<T> padre;
+				while (true)
 				{
-                    un_nodo.HijoIzquierdo.Valor = valor;
-                }
-                else
-				{
-                    Colocar(un_nodo.HijoIzquierdo, valor);
-                }
-            }
-            else
-            {
-                if (un_nodo.HijoDerecho == null)
-                {
-                    un_nodo.HijoDerecho.Valor = valor;
-                }
-                else
-                {
-                    Colocar(un_nodo.HijoDerecho, valor);
-                }
-            }
-        }
-    }
+					padre = actual;
+					if (valor.CompareTo(actual.Valor) < 0)
+					{
+						actual = actual.Izquierda;
+						if (actual == null)
+						{
+							padre.Izquierda = nuevoNodo;
+							break;
+						}
+					}
+					else
+					{
+						actual = actual.Derecha;
+						if (actual == null)
+						{
+							padre.Derecha = nuevoNodo;
+							break;
+						}
+					}
+				}
+			}
+		}
+	}
 }

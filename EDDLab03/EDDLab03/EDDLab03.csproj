@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Structuras">
-      <HintPath>..\Structuras\bin\Debug\net6.0\Structuras.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Structuras\Structuras.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,11 @@
 ﻿@model Carro
+@{
+    ViewData["Title"] = "Carga Manual";
+}
 
+<h1>@ViewData["Title"] </h1>
+<label>Llenar con los respectivos datos...</label>
+<p></p>
 <form asp-action="Guardar" method="post">
     <div class="form-group">
         <label for="id">ID:</label>
@@ -25,5 +31,6 @@
         <label for="serie">Serie:</label>
         <input type="text" class="form-control" id="serie" name="serie">
     </div>
+    <p></p>
     <button type="submit" class="btn btn-primary">Guardar</button>
 </form>

@@ -15,7 +15,6 @@ namespace EDDLab03.Controllers
 
 		public IActionResult Index()
 		{
-			Structuras.Nodo<Carro> NodoCarro;
 			return View();
 		}
 
