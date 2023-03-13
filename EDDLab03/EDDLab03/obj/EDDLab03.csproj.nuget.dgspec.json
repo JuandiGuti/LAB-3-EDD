@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj": {}
+    "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj": {
+    "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
+        "projectUniqueName": "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
         "projectName": "EDDLab03",
-        "projectPath": "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
-        "packagesPath": "C:\\Users\\samur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samur\\OneDrive\\Desktop\\ENTREGA PARCIAL PROGRA\\LAB-3-EDD\\EDDLab03\\EDDLab03\\obj\\",
+        "projectPath": "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\EDDLab03.csproj",
+        "packagesPath": "C:\\Users\\Altan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Altan\\OneDrive\\Escritorio\\LAB-3-EDD\\EDDLab03\\EDDLab03\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\samur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Altan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
