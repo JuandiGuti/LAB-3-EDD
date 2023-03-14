@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Structuras;
+using System.Runtime.Intrinsics.X86;
+
 namespace EDDLab03.Controllers
 {
 	public class HomeController : Controller
@@ -15,7 +17,7 @@ namespace EDDLab03.Controllers
 
 		public IActionResult Index()
 		{
-			return View();
+            return View();
 		}
 
 		public IActionResult Privacy()

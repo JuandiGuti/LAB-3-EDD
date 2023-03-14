@@ -7,7 +7,9 @@ namespace EDDLab03.Controllers
 	public class CarrosController : Controller
 	{
 		List<Carro> CarrosLista = new List<Carro>();
-		public IActionResult Index()
+
+        [Route("Index")]
+        public IActionResult Index()
 		{
 			return View(CarrosLista);
 		}
@@ -76,7 +78,7 @@ namespace EDDLab03.Controllers
             return View();
         }
 
-        [HttpPost("guardar")]
+        [HttpPost("Guardar")]
         public IActionResult Guardar(Carro nuevoCarro)
         {
             CarrosLista.Add(nuevoCarro);
