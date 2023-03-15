@@ -23,16 +23,16 @@ namespace Structuras
     {
         private NODO<T> Raiz;
 
-        public NODO<T> Buscar(T valor)
+        public T Buscar(T valor)
         {
             return BuscarRecursivo(Raiz, valor);
         }
 
-        private NODO<T> BuscarRecursivo(NODO<T> nodo, T valor)
+        private T BuscarRecursivo(NODO<T> nodo, T valor)
         {
             if (nodo == null || nodo.Valor.CompareTo(valor) == 0)
             {
-                return nodo;
+                return valor;
             }
 
             if (valor.CompareTo(nodo.Valor) < 0)

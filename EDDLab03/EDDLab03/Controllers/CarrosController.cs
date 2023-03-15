@@ -199,10 +199,10 @@ namespace EDDLab03.Controllers
             return View();
         }
         [HttpPost("GuardarBusquedaAVL")]
-        public NODO<String> AVLBusqueda(String valor)
+        public String AVLBusqueda(String valor)
         {
-            NODO<String> vf = CarrosPropiedadAVL.Buscar(valor);
-            return vf;
+            String vf = CarrosPropiedadAVL.Buscar(valor);
+            return "A encontrado el dato: " + vf;
         }
     }
 }
