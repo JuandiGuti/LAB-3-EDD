@@ -22,27 +22,29 @@ namespace Structuras
     public class AVL<T> where T : IComparable<T>
     {
         private NODO<T> Raiz;
-
-        public T Buscar(T valor)
+        public bool Buscar(T valor)
         {
-            return BuscarRecursivo(Raiz, valor);
-        }
+            NODO<T> actual = Raiz;
 
-        private T BuscarRecursivo(NODO<T> nodo, T valor)
-        {
-            if (nodo == null || nodo.Valor.CompareTo(valor) == 0)
+            while (actual != null)
             {
-                return valor;
+                int comparacion = valor.CompareTo(actual.Valor);
+
+                if (comparacion == 0)
+                {
+                    return true;
+                }
+                else if (comparacion < 0)
+                {
+                    actual = actual.Izquierdo;
+                }
+                else
+                {
+                    actual = actual.Derecho;
+                }
             }
 
-            if (valor.CompareTo(nodo.Valor) < 0)
-            {
-                return BuscarRecursivo(nodo.Izquierdo, valor);
-            }
-            else
-            {
-                return BuscarRecursivo(nodo.Derecho, valor);
-            }
+            return false;
         }
 
         public void Insertar(T valor)
@@ -132,5 +134,47 @@ namespace Structuras
 
             return nuevoNodo;
         }
+        public String Validez()
+        {
+            if (Raiz == null)
+            {
+                return ("Vacia");
+            }
+            else
+            {
+                if (Raiz.Izquierdo == null)
+                {
+                    if (Raiz.Derecho == null)
+                    {
+                        return (Convert.ToString(Raiz.Valor));
+                    }
+                    return (Convert.ToString(Raiz.Valor) + " / " + Recorrido(Raiz.Derecho, Raiz));
+                }
+                if (Raiz.Derecho == null)
+                {
+                    return (Recorrido(Raiz.Izquierdo, Raiz));
+                }
+                return (Recorrido(Raiz.Izquierdo, Raiz) + " / " + Recorrido(Raiz.Derecho, Raiz));
+            }
+        }
+
+        public String Recorrido(NODO<T> actual, NODO<T> padre)
+        {
+            if (actual.Izquierdo == null)
+            {
+                if (actual.Derecho == null)
+                {
+                    return (Convert.ToString(actual.Valor));
+                }
+                return (Convert.ToString(actual.Valor) + " / " + Recorrido(actual.Derecho, actual));
+            }
+
+            if (actual.Derecho == null)
+            {
+                return (Recorrido(actual.Izquierdo, actual) + " / " + Convert.ToString(padre.Valor));
+            }
+            return (Recorrido(actual.Izquierdo, actual) + " / " + Convert.ToString(padre.Valor) + " / " + Recorrido(actual.Derecho, actual));
+        }
+
     }
 }
