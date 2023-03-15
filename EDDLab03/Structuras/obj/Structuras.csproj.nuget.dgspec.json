@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\byron\\Desktop\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj": {}
+    "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj": {}
   },
   "projects": {
-    "C:\\Users\\byron\\Desktop\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj": {
+    "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\byron\\Desktop\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj",
+        "projectUniqueName": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj",
         "projectName": "Structuras",
-        "projectPath": "C:\\Users\\byron\\Desktop\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj",
-        "packagesPath": "C:\\Users\\byron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\byron\\Desktop\\LAB-3-EDD\\EDDLab03\\Structuras\\obj\\",
+        "projectPath": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\Structuras.csproj",
+        "packagesPath": "C:\\Users\\juand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juand\\Documents\\01 UNIVERSIDAD\\ESTRUCTURAS DE DATOS\\00 PROYECTOS\\LAB-3-EDD\\EDDLab03\\Structuras\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\byron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

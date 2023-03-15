@@ -9,11 +9,9 @@ namespace EDDLab03.Controllers
 	[Route("[controller]")]
 	public class CarrosController : Controller
 	{
-		public List<Carro> CarrosLista = new List<Carro>();
-		public ABB<String> CarrosPropiedadABB = new ABB<string>();
-		public AVL<String> CarrosPropiedadAVL = new AVL<string>();
-
-        public int no = 0;
+		public static List<Carro> CarrosLista = new List<Carro>();
+		public static ABB<String> CarrosPropiedadABB = new ABB<string>();
+		public static AVL<String> CarrosPropiedadAVL = new AVL<string>();
 
 		[Route("Index")]
 		public IActionResult Index()
@@ -49,7 +47,6 @@ namespace EDDLab03.Controllers
 						}
 						if (!string.IsNullOrEmpty(linea) && contador > 1)
 						{
-							no++;
 							string[] FilaActual = linea.Split(',');
 							CarrosLista.Add(new Carro
 							{
@@ -89,7 +86,6 @@ namespace EDDLab03.Controllers
 		[HttpPost("Guardar")]
 		public IActionResult Guardar(Carro nuevoCarro)
 		{
-			no++;
 			CarrosLista.Add(nuevoCarro);
 			return RedirectToAction("Index");
 		}
@@ -102,7 +98,7 @@ namespace EDDLab03.Controllers
         [HttpPost("GuardarABBTipo")]
         public IActionResult TipoABB(int Colum)
 		{
-            for (int i = 0; i < CarrosLista.Count; i++)
+            for (int i = 0; i < CarrosLista.Count(); i++)
 			{
                 if (Colum == 0)
                 {
@@ -163,7 +159,7 @@ namespace EDDLab03.Controllers
         [HttpPost("GuardarAVLTipo")]
         public IActionResult TipoAVL(int Colum)
         {
-            for (int i = 0; i < no; i++)
+            for (int i = 0; i < CarrosLista.Count(); i++)
             {
                 if (Colum == 0)
                 {

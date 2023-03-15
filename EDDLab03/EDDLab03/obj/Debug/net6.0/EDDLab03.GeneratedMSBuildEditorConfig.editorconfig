@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EDDLab03
 build_property.RootNamespace = EDDLab03
-build_property.ProjectDir = C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\EDDLab03\
+build_property.ProjectDir = C:\Users\juand\Documents\01 UNIVERSIDAD\ESTRUCTURAS DE DATOS\00 PROYECTOS\LAB-3-EDD\EDDLab03\EDDLab03\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\EDDLab03
+build_property.MSBuildProjectDirectory = C:\Users\juand\Documents\01 UNIVERSIDAD\ESTRUCTURAS DE DATOS\00 PROYECTOS\LAB-3-EDD\EDDLab03\EDDLab03
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/ABB.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/ABB.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEFCQi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/ABBTipo.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/ABBTipo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEFCQlRpcG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/AVL.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/AVL.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEFWTC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/AVLTipo.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/AVLTipo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEFWTFRpcG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/BusquedaABB.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/BusquedaABB.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEJ1c3F1ZWRhQUJCLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/BusquedaAVL.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/BusquedaAVL.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEJ1c3F1ZWRhQVZMLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/CargaCSV.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/CargaCSV.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXENhcmdhQ1NWLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/cargamanual.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/cargamanual.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXGNhcmdhbWFudWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/Index.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Carros/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Home/Index.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Home/Privacy.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Shared/Error.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/_ViewImports.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/_ViewStart.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/byron/Desktop/LAB-3-EDD/EDDLab03/EDDLab03/Views/Shared/_Layout.cshtml]
+[C:/Users/juand/Documents/01 UNIVERSIDAD/ESTRUCTURAS DE DATOS/00 PROYECTOS/LAB-3-EDD/EDDLab03/EDDLab03/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ys6tj93b6q
