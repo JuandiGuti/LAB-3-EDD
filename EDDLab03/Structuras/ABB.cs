@@ -8,6 +8,7 @@ namespace Structuras
         public Nodo<T> Izquierda { get; set; }
         public Nodo<T> Derecha { get; set; }
 
+
         public Nodo(T valor)
         {
             Valor = valor;
@@ -16,6 +17,8 @@ namespace Structuras
 
     public class ABB<T> where T : IComparable<T>
     {
+        public int Comparar { get; set; }
+
         private Nodo<T> raiz;
 
         public ABB()
@@ -77,6 +80,7 @@ namespace Structuras
                 while (true)
                 {
                     padre = actual;
+                    Comparar++;
                     if (valor.CompareTo(actual.Valor) < 0)
                     {
                         actual = actual.Izquierda;

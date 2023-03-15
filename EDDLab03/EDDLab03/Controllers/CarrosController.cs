@@ -206,9 +206,14 @@ namespace EDDLab03.Controllers
 			return (CarrosPropiedadABB.Validez());
 			stopwatch.Stop();
 		}
-		//------------------------------------------------------------------------------------------------------------------//
+        [Route("ComparacionesABB")]
+        public int ComparacionesABB()
+        {
+			return (CarrosPropiedadABB.Comparar);
+        }
+        //------------------------------------------------------------------------------------------------------------------//
 
-		[HttpGet("AVLTipo")]
+        [HttpGet("AVLTipo")]
 		public IActionResult AVLTipo()
 		{
 			return View();
@@ -316,6 +321,11 @@ namespace EDDLab03.Controllers
             stopwatch.Start();
             return (CarrosPropiedadAVL.Validez());
             stopwatch.Stop();
+        }
+        [Route("ComparacionesAVL")]
+        public int ComparacionesAVL()
+        {
+            return (CarrosPropiedadAVL.Rotaciones);
         }
     }
 }

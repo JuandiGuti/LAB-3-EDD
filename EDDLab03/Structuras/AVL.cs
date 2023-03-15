@@ -22,6 +22,7 @@ namespace Structuras
     public class AVL<T> where T : IComparable<T>
     {
         private NODO<T> Raiz;
+        public int Rotaciones { get; set; }
         public bool Buscar(T valor)
         {
             NODO<T> actual = Raiz;
@@ -74,23 +75,27 @@ namespace Structuras
 
             if (balance > 1 && valor.CompareTo(nodo.Izquierdo.Valor) < 0)
             {
+                Rotaciones++;
                 return RotarDerecha(nodo);
             }
 
             if (balance > 1 && valor.CompareTo(nodo.Izquierdo.Valor) > 0)
             {
                 nodo.Izquierdo = RotarIzquierda(nodo.Izquierdo);
+                Rotaciones++;
                 return RotarDerecha(nodo);
             }
 
             if (balance < -1 && valor.CompareTo(nodo.Derecho.Valor) > 0)
             {
+                Rotaciones++;
                 return RotarIzquierda(nodo);
             }
 
             if (balance < -1 && valor.CompareTo(nodo.Derecho.Valor) < 0)
             {
                 nodo.Derecho = RotarDerecha(nodo.Derecho);
+                Rotaciones++;
                 return RotarIzquierda(nodo);
             }
 
