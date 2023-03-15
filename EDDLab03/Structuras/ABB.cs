@@ -22,6 +22,23 @@ namespace Structuras
         {
             raiz = null;
         }
+        public int Altura()
+        {
+            return Altura(raiz);
+        }
+
+        private int Altura(Nodo<T> nodo)
+        {
+            if (nodo == null)
+            {
+                return -1;
+            }
+            int alturaIzquierda = Altura(nodo.Izquierda);
+            int alturaDerecha = Altura(nodo.Derecha);
+
+            return 1 + Math.Max(alturaIzquierda, alturaDerecha);
+        }
+
         public Nodo<T> Buscar(T valor)
         {
             Nodo<T> actual = raiz;

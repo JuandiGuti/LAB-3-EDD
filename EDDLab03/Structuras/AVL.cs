@@ -97,6 +97,21 @@ namespace Structuras
             return nodo;
         }
 
+        public int AlturaAVL()
+        {
+            return AlturaRecursiva(Raiz);
+        }
+
+        private int AlturaRecursiva(NODO<T> nodo)
+        {
+            if (nodo == null)
+            {
+                return 0;
+            }
+
+            return 1 + Math.Max(AlturaRecursiva(nodo.Izquierdo), AlturaRecursiva(nodo.Derecho));
+        }
+
         private int Altura(NODO<T> nodo)
         {
             return nodo == null ? 0 : nodo.Altura;
