@@ -2,11 +2,11 @@
 {
 	public class Carro
 	{
-		public string id { get; set; }
-		public string email { get; set; }
-		public string propietario { get; set; }
-		public string color { get; set; }
-		public string marca { get; set; }
-		public string serie { get; set; }
+		public String id { get; set; }
+		public String email { get; set; }
+		public String propietario { get; set; }
+		public String color { get; set; }
+		public String marca { get; set; }
+		public String serie { get; set; }
 	}
 }

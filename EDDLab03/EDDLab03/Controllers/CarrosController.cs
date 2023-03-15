@@ -10,8 +10,8 @@ namespace EDDLab03.Controllers
 	public class CarrosController : Controller
 	{
 		List<Carro> CarrosLista = new List<Carro>();
-		ABB<string> CarrosPropiedadABB = new ABB<string>();
-		AVL<string> CarrosPropiedadAVL = new AVL<string>();
+		ABB<String> CarrosPropiedadABB = new ABB<string>();
+		AVL<String> CarrosPropiedadAVL = new AVL<string>();
 
         int no = 0;
 
@@ -136,8 +136,18 @@ namespace EDDLab03.Controllers
         {
             return View();
         }
-
-//------------------------------------------------------------------------------------------------------------------//
+        [HttpGet("BusquedaABB")]
+        public IActionResult BusquedaABB()
+        {
+            return View();
+        }
+        [HttpPost("GuardarBusquedaABB")]
+        public Nodo<String> ABBBusqueda(String valor)
+        {
+            Nodo<String> vf = CarrosPropiedadABB.Buscar(valor);
+            return vf;
+        }
+        //------------------------------------------------------------------------------------------------------------------//
 
         [HttpGet("AVLTipo")]
         public IActionResult AVLTipo()
@@ -180,6 +190,17 @@ namespace EDDLab03.Controllers
         public IActionResult AVL()
         {
             return View();
+        }
+        [HttpGet("BusquedaAVL")]
+        public IActionResult BusquedaAVL()
+        {
+            return View();
+        }
+        [HttpPost("GuardarBusquedaAVL")]
+        public NODO<String> AVLBusqueda(String valor)
+        {
+            NODO<String> vf = CarrosPropiedadAVL.Buscar(valor);
+            return vf;
         }
     }
 }

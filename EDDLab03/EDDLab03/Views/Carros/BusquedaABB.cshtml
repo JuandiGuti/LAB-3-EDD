@@ -1,0 +1,17 @@
+﻿@model String
+@{
+    ViewData["Title"] = "ABB Busqueda";
+}
+<body style="background-color: moccasin;">
+    <h1>@ViewData["Title"] </h1>
+<label>Coloque el buscando...</label>
+<p></p>
+    <form asp-action="GuardarBusquedaABB" method="post">
+        <div class="form-group">
+            <label>Buscando:</label>
+            <input type="text" class="form-control" id="valor" name="valor">
+        </div>
+        <p></p>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+</body>

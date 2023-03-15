@@ -23,6 +23,28 @@ namespace Structuras
     {
         private NODO<T> Raiz;
 
+        public NODO<T> Buscar(T valor)
+        {
+            return BuscarRecursivo(Raiz, valor);
+        }
+
+        private NODO<T> BuscarRecursivo(NODO<T> nodo, T valor)
+        {
+            if (nodo == null || nodo.Valor.CompareTo(valor) == 0)
+            {
+                return nodo;
+            }
+
+            if (valor.CompareTo(nodo.Valor) < 0)
+            {
+                return BuscarRecursivo(nodo.Izquierdo, valor);
+            }
+            else
+            {
+                return BuscarRecursivo(nodo.Derecho, valor);
+            }
+        }
+
         public void Insertar(T valor)
         {
             Raiz = InsertarRecursivo(Raiz, valor);
