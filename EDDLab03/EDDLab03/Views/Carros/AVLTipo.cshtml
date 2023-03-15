@@ -1,0 +1,29 @@
+﻿@model int
+@{
+    ViewData["Title"] = "AVL Tipo";
+}
+
+<h1>@ViewData["Title"] </h1>
+<label>Colocar el numero para el cual se guardara el arbol AVL</label>
+<p></p>
+<label>0. ID</label>
+<p></p>
+<label>1. Email</label>
+<p></p>
+<label>2. Propietario</label>
+<p></p>
+<label>3. Color</label>
+<p></p>
+<label>4. Marca</label>
+<p></p>
+<label>5. Serie</label>
+<p></p>
+
+<form asp-action="GuardarAVLTipo" method="post">
+    <div class="form-group">
+        <label>Tipo: (Solo Num.)</label>
+        <input type="number" class="form-control" id="Colum" name="Colum">
+    </div>
+    <p></p>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>

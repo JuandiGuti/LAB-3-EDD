@@ -22,8 +22,31 @@ namespace Structuras
 		{
 			raiz = null;
 		}
+        public Nodo<T> Buscar(T valor)
+        {
+            Nodo<T> actual = raiz;
 
-		public void Insertar(T valor)
+            while (actual != null)
+            {
+                int comparacion = valor.CompareTo(actual.Valor);
+
+                if (comparacion == 0)
+                {
+                    return actual;
+                }
+                else if (comparacion < 0)
+                {
+                    actual = actual.Izquierda;
+                }
+                else
+                {
+                    actual = actual.Derecha;
+                }
+            }
+            return null;
+        }
+
+        public void Insertar(T valor)
 		{
 			Nodo<T> nuevoNodo = new Nodo<T>(valor);
 			if (raiz == null)

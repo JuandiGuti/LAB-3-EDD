@@ -1,6 +1,8 @@
 ﻿using EDDLab03.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.VisualBasic;
+using Structuras;
+using System.Drawing;
 
 namespace EDDLab03.Controllers
 {
@@ -8,18 +10,20 @@ namespace EDDLab03.Controllers
 	public class CarrosController : Controller
 	{
 		List<Carro> CarrosLista = new List<Carro>();
+		ABB<string> CarrosPropiedadABB = new ABB<string>();
+		int no = 0;
 
-        [Route("Index")]
-        public IActionResult Index()
+		[Route("Index")]
+		public IActionResult Index()
 		{
 			return View(CarrosLista);
 		}
-        public IActionResult CargarArchivo()
-        {
-            return View();
-        }
+		public IActionResult CargarArchivo()
+		{
+			return View();
+		}
 
-        [HttpPost("cargacsv")]
+		[HttpPost("cargacsv")]
 		public IActionResult CargaCSV(IFormFile archivo)
 		{
 			if (archivo != null)
@@ -43,6 +47,7 @@ namespace EDDLab03.Controllers
 						}
 						if (!string.IsNullOrEmpty(linea) && contador > 1)
 						{
+							no++;
 							string[] FilaActual = linea.Split(',');
 							CarrosLista.Add(new Carro
 							{
@@ -73,25 +78,59 @@ namespace EDDLab03.Controllers
 			return View();
 		}
 
-        [HttpGet("cargamanual")]
-        public IActionResult CargaManual()
-        {
-            return View();
-        }
-
-        [HttpPost("Guardar")]
-        public IActionResult Guardar(Carro nuevoCarro)
-        {
-            CarrosLista.Add(nuevoCarro);
-            return RedirectToAction("Index");
-        }
-        [Route("AVL")]
-        public IActionResult AVL()
+		[HttpGet("cargamanual")]
+		public IActionResult CargaManual()
 		{
 			return View();
 		}
-        [Route("ABB")]
-        public IActionResult ABB()
+
+		[HttpPost("Guardar")]
+		public IActionResult Guardar(Carro nuevoCarro)
+		{
+			no++;
+			CarrosLista.Add(nuevoCarro);
+			return RedirectToAction("Index");
+		}
+
+		[HttpGet("AVLTipo")]
+        public IActionResult AVLTipo()
+        {
+            return View();
+        }
+        [HttpPost("GuardarAVLTipo")]
+        public IActionResult TipoAVL(int Colum)
+		{
+            for (int i = 0; i < no; i++)
+			{
+                if (Colum == 0)
+                {
+                    CarrosPropiedadABB.Insertar(CarrosLista[i].id);
+				}
+                else if (Colum == 1)
+                {
+                    CarrosPropiedadABB.Insertar(CarrosLista[i].email);
+                }
+                else if (Colum == 2)
+                {
+                    CarrosPropiedadABB.Insertar(CarrosLista[i].propietario);
+                }
+                else if (Colum == 3)
+                {
+                    CarrosPropiedadABB.Insertar(CarrosLista[i].color);
+                }
+                else if (Colum == 4)
+                {
+                    CarrosPropiedadABB.Insertar(CarrosLista[i].marca);
+                }
+                else if (Colum == 5)
+                {
+                    CarrosPropiedadABB.Insertar(CarrosLista[i].serie);
+                }
+            }
+            return RedirectToAction("AVL");
+        }
+        [Route("AVL")]
+        public IActionResult AVL()
         {
             return View();
         }
