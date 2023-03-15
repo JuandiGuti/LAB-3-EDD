@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Carga de CSV";
 }
-
+<body style="background-color: moccasin;">
 <h1>@ViewData["Title"] </h1>
 
 @using (Html.BeginForm("CargaCSV", "Carros", FormMethod.Post, new { enctype = "multipart/form-data" }))
@@ -38,4 +38,4 @@
 			}
 				</table>
 	}
-}
+}</body>

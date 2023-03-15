@@ -1,22 +1,24 @@
 ﻿@{
     ViewData["Title"] = "Lab.3 Circulacion de Vehiculos SAT";
 }
+<body style="background-color: moccasin;">
 <div class="text-center">
-    <h1>@ViewData["Title"]</h1>
+    <h1 style="font-size: 60px; color: black">@ViewData["Title"]</h1>
     <div>
-        <h3>Paso: 1</h3>
-        <label>Cargar un archivo o Ingresar manualmente</label>
+        <h3 style="font-size: 20px; color: red">Paso: 1</h3>
+        <label style="font-size: 25px; color: darkblue">Cargar un archivo o Ingresar manualmente</label>
         <br /><br />
         <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="cargacsv">Por CSV</a></button>
         <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="cargamanual">Manual</a></button>
         <br /><br />
     </div>
     <div>
-        <h3>Paso: 2</h3>
-        <label>Guardar en: Arbol AVL o Arbol ABB (Puede elegir solo una de las 2 o luego de guardar en una guarde en la siguiente)</label>
+        <h3 style ="font-size: 20px; color: red">Paso: 2</h3>
+        <label style="font-size: 25px; color: darkblue">Guardar en: Arbol AVL o Arbol ABB (Puede elegir solo una de las 2 o luego de guardar en una guarde en la siguiente)</label>
         <br /><br />
         <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="AVLTipo">AVL</a></button>
         <button><a class="nav-link text-dark" asp-area="" asp-controller="Carros" asp-action="ABBTipo">ABB</a></button>
         <br /><br />
     </div>
 </div>
+</body>
