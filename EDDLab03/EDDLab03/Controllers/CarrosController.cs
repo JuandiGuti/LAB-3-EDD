@@ -1,5 +1,6 @@
 ﻿using EDDLab03.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.VisualBasic;
 
 namespace EDDLab03.Controllers
 {
@@ -83,6 +84,16 @@ namespace EDDLab03.Controllers
         {
             CarrosLista.Add(nuevoCarro);
             return RedirectToAction("Index");
+        }
+        [Route("AVL")]
+        public IActionResult AVL()
+		{
+			return View();
+		}
+        [Route("ABB")]
+        public IActionResult ABB()
+        {
+            return View();
         }
     }
 }
