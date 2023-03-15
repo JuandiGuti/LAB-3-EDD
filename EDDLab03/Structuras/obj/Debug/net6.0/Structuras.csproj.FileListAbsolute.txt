@@ -22,3 +22,15 @@ C:\Users\Altan\OneDrive\Escritorio\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.
 C:\Users\Altan\OneDrive\Escritorio\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\refint\Structuras.dll
 C:\Users\Altan\OneDrive\Escritorio\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\Structuras.pdb
 C:\Users\Altan\OneDrive\Escritorio\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\ref\Structuras.dll
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\bin\Debug\net6.0\Structuras.deps.json
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\bin\Debug\net6.0\Structuras.dll
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\bin\Debug\net6.0\Structuras.pdb
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\Structuras.csproj.AssemblyReference.cache
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\Structuras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\Structuras.AssemblyInfoInputs.cache
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\Structuras.AssemblyInfo.cs
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\Structuras.csproj.CoreCompileInputs.cache
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\Structuras.dll
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\refint\Structuras.dll
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\Structuras.pdb
+C:\Users\byron\Desktop\LAB-3-EDD\EDDLab03\Structuras\obj\Debug\net6.0\ref\Structuras.dll

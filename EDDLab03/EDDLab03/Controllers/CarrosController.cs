@@ -9,11 +9,11 @@ namespace EDDLab03.Controllers
 	[Route("[controller]")]
 	public class CarrosController : Controller
 	{
-		List<Carro> CarrosLista = new List<Carro>();
-		ABB<String> CarrosPropiedadABB = new ABB<string>();
-		AVL<String> CarrosPropiedadAVL = new AVL<string>();
+		public List<Carro> CarrosLista = new List<Carro>();
+		public ABB<String> CarrosPropiedadABB = new ABB<string>();
+		public AVL<String> CarrosPropiedadAVL = new AVL<string>();
 
-        int no = 0;
+        public int no = 0;
 
 		[Route("Index")]
 		public IActionResult Index()
@@ -102,7 +102,7 @@ namespace EDDLab03.Controllers
         [HttpPost("GuardarABBTipo")]
         public IActionResult TipoABB(int Colum)
 		{
-            for (int i = 0; i < no; i++)
+            for (int i = 0; i < CarrosLista.Count; i++)
 			{
                 if (Colum == 0)
                 {
@@ -146,6 +146,12 @@ namespace EDDLab03.Controllers
         {
             Nodo<String> vf = CarrosPropiedadABB.Buscar(valor);
             return vf;
+        }
+
+		[Route("OrdenamientoABB")]
+		public String OrdenamientoABB()
+        {
+            return (CarrosPropiedadABB.Validez());
         }
         //------------------------------------------------------------------------------------------------------------------//
 
