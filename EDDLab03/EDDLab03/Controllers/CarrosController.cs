@@ -11,7 +11,9 @@ namespace EDDLab03.Controllers
 	{
 		List<Carro> CarrosLista = new List<Carro>();
 		ABB<string> CarrosPropiedadABB = new ABB<string>();
-		int no = 0;
+		AVL<string> CarrosPropiedadAVL = new AVL<string>();
+
+        int no = 0;
 
 		[Route("Index")]
 		public IActionResult Index()
@@ -92,13 +94,13 @@ namespace EDDLab03.Controllers
 			return RedirectToAction("Index");
 		}
 
-		[HttpGet("AVLTipo")]
-        public IActionResult AVLTipo()
+		[HttpGet("ABBTipo")]
+        public IActionResult ABBTipo()
         {
             return View();
         }
-        [HttpPost("GuardarAVLTipo")]
-        public IActionResult TipoAVL(int Colum)
+        [HttpPost("GuardarABBTipo")]
+        public IActionResult TipoABB(int Colum)
 		{
             for (int i = 0; i < no; i++)
 			{
@@ -125,6 +127,51 @@ namespace EDDLab03.Controllers
                 else if (Colum == 5)
                 {
                     CarrosPropiedadABB.Insertar(CarrosLista[i].serie);
+                }
+            }
+            return RedirectToAction("ABB");
+        }
+        [Route("ABB")]
+        public IActionResult ABB()
+        {
+            return View();
+        }
+
+//------------------------------------------------------------------------------------------------------------------//
+
+        [HttpGet("AVLTipo")]
+        public IActionResult AVLTipo()
+        {
+            return View();
+        }
+        [HttpPost("GuardarAVLTipo")]
+        public IActionResult TipoAVL(int Colum)
+        {
+            for (int i = 0; i < no; i++)
+            {
+                if (Colum == 0)
+                {
+                    CarrosPropiedadAVL.Insertar(CarrosLista[i].id);
+                }
+                else if (Colum == 1)
+                {
+                    CarrosPropiedadAVL.Insertar(CarrosLista[i].email);
+                }
+                else if (Colum == 2)
+                {
+                    CarrosPropiedadAVL.Insertar(CarrosLista[i].propietario);
+                }
+                else if (Colum == 3)
+                {
+                    CarrosPropiedadAVL.Insertar(CarrosLista[i].color);
+                }
+                else if (Colum == 4)
+                {
+                    CarrosPropiedadAVL.Insertar(CarrosLista[i].marca);
+                }
+                else if (Colum == 5)
+                {
+                    CarrosPropiedadAVL.Insertar(CarrosLista[i].serie);
                 }
             }
             return RedirectToAction("AVL");
